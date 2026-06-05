@@ -4,72 +4,332 @@
       <h2 class="tittletH2"><span class="tittletH2FisrtL">S</span>kills</h2>
       <span class="line"></span>
       <div class="skillBox">
-        <!-- <div class="languages">
-            <h2>Languages</h2>
-            <ul>
-              <pre>
-
-                <li>Español -  Nativo</li>
-                <li>Ingles  -  Medio-alto</li>
-                <li>Chino   -  Nativo</li>
-              </pre>
-            </ul>
-        </div> -->
         <div class="skills">
-          <h2>Introduccing my skills</h2>
+          <h2>Introducing my skills</h2>
           <p>
-            Soy un desarrollador full stack especializado con el entorno de .Net, usando c# como lenguaje principal 
-            de back_end, además uso el framework Angular, con JavaScript como lenguaje principal para el desarrollo
-            proyectos en fron-end. <br>
-            "Este portafolios está realizado con Angular".
+            Soy <strong>desarrollador back-end Java</strong> especializado en construir
+            <strong>microservicios y APIs REST</strong> con <strong>Java 17</strong> y
+            <strong>Spring Boot</strong>, desplegados sobre <strong>AWS</strong>
+            (SQS, Step Functions, S3, DynamoDB). Trabajo a diario con bases de datos
+            <strong>SQL</strong> y <strong>MongoDB</strong>, aplicando buenas prácticas
+            de arquitectura, testing y CI/CD. <br>
+            <em>"Este portafolio está realizado con Angular."</em>
           </p>
         </div>
           <span class="tagcloud"></span>
       </div>
+
+      <!-- Highlights / pitch para reclutadores -->
+      <div class="highlights">
+        <div class="highlight-card">
+          <span class="highlight-num">17</span>
+          <span class="highlight-label">Java moderno · records, streams, lambdas</span>
+        </div>
+        <div class="highlight-card">
+          <span class="highlight-num">AWS</span>
+          <span class="highlight-label">Cloud-native · SQS · Step Functions · S3 · DynamoDB</span>
+        </div>
+        <div class="highlight-card">
+          <span class="highlight-num">SQL + NoSQL</span>
+          <span class="highlight-label">MySQL · PostgreSQL · MongoDB · DynamoDB</span>
+        </div>
+        <div class="highlight-card">
+          <span class="highlight-num">REST</span>
+          <span class="highlight-label">Microservicios · Spring Boot · seguridad JWT/OAuth2</span>
+        </div>
+      </div>
   </div>
-    <div class="skillAbi">
-        <div class="abiBox">
-          <span class="img img1"></span>
-          <div class="text">
-            <h2><i>Angular</i></h2>
-            <p> El framework que mas utilizon de javascript para programar es Angular, con el que esta realizado esta pagina.</p>
+
+    <!-- Stack agrupado por categorías -->
+    <div class="techStack">
+
+      <div class="techGroup">
+        <h3 class="techGroup-title">Backend</h3>
+        <div class="techGrid">
+
+          <div class="techCard">
+            <div class="techCard-inner">
+              <div class="techCard-front">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java 17" />
+                <span class="techCard-name">Java 17</span>
+              </div>
+              <div class="techCard-back">
+                <h4>Java 17</h4>
+                <p>Mi lenguaje principal. Aprovecho records, sealed classes, pattern matching y la API de streams para escribir código limpio, expresivo y testeable.</p>
+              </div>
+            </div>
           </div>
-        </div>
-        <div class="abiBox">
-          <span class="img img2"></span>
-          <div class="text">
-            <h2><i>Javascript</i></h2>
-            <p>Mi lenguaje de front-end principal es javascript</p>
+
+          <div class="techCard">
+            <div class="techCard-inner">
+              <div class="techCard-front">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" alt="Spring Boot" />
+                <span class="techCard-name">Spring Boot</span>
+              </div>
+              <div class="techCard-back">
+                <h4>Spring Boot</h4>
+                <p>Construyo APIs REST y microservicios production-ready: configuración por perfiles, Actuator, validación, manejo global de errores y observabilidad.</p>
+              </div>
+            </div>
           </div>
-        </div>
-        <div class="abiBox">
-          <span class="img img3"></span>
-          <div class="text">
-            <h2><i>.Net</i></h2>
-            <p>El ecositema que utilizo para crear programas en el back-end es .Net</p>
+
+          <div class="techCard">
+            <div class="techCard-inner">
+              <div class="techCard-front">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" alt="Spring Security" />
+                <span class="techCard-name">Spring Security</span>
+              </div>
+              <div class="techCard-back">
+                <h4>Spring Security</h4>
+                <p>Aseguro APIs con autenticación y autorización basadas en JWT y OAuth2, definiendo roles, filtros personalizados y políticas a nivel de endpoint.</p>
+              </div>
+            </div>
           </div>
-        </div>
-        <div class="abiBox">
-          <span class="img img4"></span>
-          <div class="text">
-            <h2><i>C#</i></h2>
-            <p>Mi lenguaje del back-end principal es c#</p>
+
+          <div class="techCard">
+            <div class="techCard-inner">
+              <div class="techCard-front">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/hibernate/hibernate-original.svg" alt="Hibernate / JPA" />
+                <span class="techCard-name">Hibernate / JPA</span>
+              </div>
+              <div class="techCard-back">
+                <h4>Hibernate / JPA</h4>
+                <p>Modelo dominios complejos con entidades, relaciones y Specifications. Optimizo consultas, evito N+1 y gestiono transacciones con cuidado.</p>
+              </div>
+            </div>
           </div>
-        </div>
-        <div class="abiBox">
-          <span class="img img5"></span>
-          <div class="text">
-            <h2><i>Entity Framework</i></h2>
-            <p>El ORM que uso para .Net es Entity Framework</p>
+
+          <div class="techCard">
+            <div class="techCard-inner">
+              <div class="techCard-front">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/maven/maven-original.svg" alt="Maven" />
+                <span class="techCard-name">Maven</span>
+              </div>
+              <div class="techCard-back">
+                <h4>Maven</h4>
+                <p>Gestiono dependencias, perfiles de build y empaquetado de microservicios; integrado en pipelines de CI/CD para entregas reproducibles.</p>
+              </div>
+            </div>
           </div>
-        </div>
-        <div class="abiBox">
-          <span class="img img6"></span>
-          <div class="text">
-            <h2><i>SQL</i></h2>
-            <p>El manejo de base de datos son SQL, como principal MySql y tambien Sql Serve</p>
+
+          <div class="techCard">
+            <div class="techCard-inner">
+              <div class="techCard-front">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/junit/junit-original.svg" alt="JUnit" />
+                <span class="techCard-name">JUnit / Mockito</span>
+              </div>
+              <div class="techCard-back">
+                <h4>JUnit / Mockito</h4>
+                <p>Tests unitarios y de integración con cobertura significativa. Aplico TDD cuando aporta valor y aseguro builds verdes antes de mergear.</p>
+              </div>
+            </div>
           </div>
+
         </div>
+      </div>
+
+      <div class="techGroup">
+        <h3 class="techGroup-title">Cloud · AWS</h3>
+        <div class="techGrid">
+
+          <div class="techCard">
+            <div class="techCard-inner">
+              <div class="techCard-front">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="AWS" />
+                <span class="techCard-name">AWS</span>
+              </div>
+              <div class="techCard-back">
+                <h4>AWS</h4>
+                <p>Diseño y opero soluciones cloud-native sobre AWS, integrando servicios serverless, colas y almacenamiento para arquitecturas escalables.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="techCard">
+            <div class="techCard-inner">
+              <div class="techCard-front">
+                <img src="https://icon.icepanel.io/AWS/svg/Application-Integration/Simple-Queue-Service.svg" alt="Amazon SQS" />
+                <span class="techCard-name">SQS</span>
+              </div>
+              <div class="techCard-back">
+                <h4>Amazon SQS</h4>
+                <p>Desacoplo microservicios mediante colas, gestionando reintentos, DLQ y procesamiento idempotente para flujos asíncronos resilientes.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="techCard">
+            <div class="techCard-inner">
+              <div class="techCard-front">
+                <img src="https://icon.icepanel.io/AWS/svg/Application-Integration/Step-Functions.svg" alt="AWS Step Functions" />
+                <span class="techCard-name">Step Functions</span>
+              </div>
+              <div class="techCard-back">
+                <h4>Step Functions</h4>
+                <p>Orquesto workflows distribuidos con state machines: paralelismo, reintentos, control de errores y trazabilidad end-to-end del proceso.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="techCard">
+            <div class="techCard-inner">
+              <div class="techCard-front">
+                <img src="https://icon.icepanel.io/AWS/svg/Storage/Simple-Storage-Service.svg" alt="Amazon S3" />
+                <span class="techCard-name">S3</span>
+              </div>
+              <div class="techCard-back">
+                <h4>Amazon S3</h4>
+                <p>Almaceno y sirvo archivos con políticas de seguridad, versionado y URLs prefirmadas; lo integro como event source para procesos asíncronos.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="techCard">
+            <div class="techCard-inner">
+              <div class="techCard-front">
+                <img src="https://icon.icepanel.io/AWS/svg/Database/DynamoDB.svg" alt="Amazon DynamoDB" />
+                <span class="techCard-name">DynamoDB</span>
+              </div>
+              <div class="techCard-back">
+                <h4>DynamoDB</h4>
+                <p>Modelo datos NoSQL aprovechando claves de partición, GSIs y patrones single-table para acceso a baja latencia y alta escala.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="techCard">
+            <div class="techCard-inner">
+              <div class="techCard-front">
+                <img src="https://icon.icepanel.io/AWS/svg/Compute/Lambda.svg" alt="AWS Lambda" />
+                <span class="techCard-name">Lambda</span>
+              </div>
+              <div class="techCard-back">
+                <h4>AWS Lambda</h4>
+                <p>Implemento funciones serverless en Java para tareas event-driven, integrándolas con SQS, S3 y Step Functions de forma eficiente.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="techGroup">
+        <h3 class="techGroup-title">Bases de datos</h3>
+        <div class="techGrid">
+
+          <div class="techCard">
+            <div class="techCard-inner">
+              <div class="techCard-front">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB" />
+                <span class="techCard-name">MongoDB</span>
+              </div>
+              <div class="techCard-back">
+                <h4>MongoDB</h4>
+                <p>Modelo datos no relacionales con esquemas flexibles, índices y agregaciones; lo integro con Spring Data para consultas tipadas.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="techCard">
+            <div class="techCard-inner">
+              <div class="techCard-front">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL" />
+                <span class="techCard-name">MySQL</span>
+              </div>
+              <div class="techCard-back">
+                <h4>MySQL</h4>
+                <p>Diseño esquemas normalizados, índices y consultas optimizadas. Habituado a migraciones controladas con Flyway y Liquibase.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="techCard">
+            <div class="techCard-inner">
+              <div class="techCard-front">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" />
+                <span class="techCard-name">PostgreSQL</span>
+              </div>
+              <div class="techCard-back">
+                <h4>PostgreSQL</h4>
+                <p>Aprovecho tipos avanzados (JSONB, arrays), CTEs y window functions para resolver consultas complejas con buen rendimiento.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="techCard">
+            <div class="techCard-inner">
+              <div class="techCard-front">
+                <img src="https://icon.icepanel.io/AWS/svg/Database/DynamoDB.svg" alt="DynamoDB" />
+                <span class="techCard-name">DynamoDB</span>
+              </div>
+              <div class="techCard-back">
+                <h4>DynamoDB</h4>
+                <p>Persistencia NoSQL gestionada para alto rendimiento y escala. Diseño de claves y GSIs orientados a los patrones de acceso reales.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="techGroup">
+        <h3 class="techGroup-title">Frontend & Tooling</h3>
+        <div class="techGrid">
+
+          <div class="techCard">
+            <div class="techCard-inner">
+              <div class="techCard-front">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angular/angular-original.svg" alt="Angular" />
+                <span class="techCard-name">Angular</span>
+              </div>
+              <div class="techCard-back">
+                <h4>Angular</h4>
+                <p>SPAs estructuradas con módulos, routing, formularios reactivos y servicios. Este portafolio está hecho con Angular.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="techCard">
+            <div class="techCard-inner">
+              <div class="techCard-front">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="TypeScript" />
+                <span class="techCard-name">TypeScript</span>
+              </div>
+              <div class="techCard-back">
+                <h4>TypeScript</h4>
+                <p>Tipado estricto en el front-end: interfaces, generics y utility types para código mantenible y refactor seguro.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="techCard">
+            <div class="techCard-inner">
+              <div class="techCard-front">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" />
+                <span class="techCard-name">Git</span>
+              </div>
+              <div class="techCard-back">
+                <h4>Git</h4>
+                <p>Trabajo con flujos basados en feature-branch y trunk-based, pull requests, commits atómicos y revisión de código colaborativa.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="techCard">
+            <div class="techCard-inner">
+              <div class="techCard-front">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker" />
+                <span class="techCard-name">Docker</span>
+              </div>
+              <div class="techCard-back">
+                <h4>Docker</h4>
+                <p>Empaqueto microservicios en imágenes ligeras y reproducibles. Uso docker-compose para entornos locales y testing de integración.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
 
     </div>
 

@@ -33,7 +33,11 @@ export class SkillsComponent implements OnInit {
         const TagCloud = require('TagCloud');
         const container = '.tagcloud';
         const texts = [
-          '.NET','ANGULAR','JAVASCRIPT','MYSQL','ENTITY FRAMEWORK','LINQ','MVC','C#','DDBB','HTML','PHP','CSS','BOOTSTRAP'
+          'JAVA 17','SPRING BOOT','SPRING SECURITY','HIBERNATE','JPA','MAVEN',
+          'AWS','SQS','STEP FUNCTIONS','S3','DYNAMODB','LAMBDA',
+          'MONGODB','MYSQL','POSTGRESQL','SQL',
+          'REST API','MICROSERVICES','JUNIT','MOCKITO',
+          'ANGULAR','TYPESCRIPT','DOCKER','GIT'
         ];
         const options = {
           radius: 250,
