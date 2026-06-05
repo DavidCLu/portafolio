@@ -456,6 +456,21 @@ backface-visibility: hidden;
     background: linear-gradient(90deg, rgba(252,176,69,0.6), rgba(9,233,139,0.6));
     opacity: 0.7;
 }
+.techCard-front::before,
+.techCard-back::before{
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(120deg, transparent 30%, rgba(255, 230, 7, 0.10) 50%, transparent 70%);
+    transform: translateX(-100%);
+    transition: transform 0.9s ease;
+    pointer-events: none;
+    z-index: 1;
+}
+.techCard:hover .techCard-front::before,
+.techCard:hover .techCard-back::before{
+    transform: translateX(100%);
+}
 .techCard-front img{
     width: 56px;
     height: 56px;
@@ -487,7 +502,7 @@ backface-visibility: hidden;
         0 10px 30px rgba(0,0,0,0.55),
         0 0 22px rgba(9, 233, 139, 0.25);
 }
-.techCard-back::before{
+.techCard-back::after{
     content: '';
     position: absolute;
     top: 0;
@@ -496,6 +511,7 @@ backface-visibility: hidden;
     height: 100%;
     background: linear-gradient(180deg, rgb(252,176,69), rgb(9, 233, 139));
     border-radius: 4px 0 0 4px;
+    z-index: 2;
 }
 .techCard-back h4{
     margin: 0;
