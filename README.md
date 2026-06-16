@@ -4,7 +4,7 @@ subir a github page
 npm install -g angular-cli-ghpages
 ng build --configuration production --base-href /portafolio/
 npx angular-cli-ghpages --dir=dist/porta
-
+https://davidclu.github.io/portafolio/
 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.9.
