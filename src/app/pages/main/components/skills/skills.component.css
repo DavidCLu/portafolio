@@ -90,7 +90,7 @@
         font-size: 1rem;
         line-height : 35px;
         color:beige;
-        width: 22rem;
+        width: 30rem;
     }
 }
     @media screen and (max-width: 1247px) {
@@ -119,7 +119,7 @@
 }
 @media screen and (max-width: 645px) {
     .tagcloud{
-       font-size: 0.5rem;
+       font-size: 0.6rem;
     }
 }
 @media screen and (max-width: 560px) {
