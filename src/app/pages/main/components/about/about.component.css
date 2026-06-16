@@ -89,7 +89,7 @@
 }
 .meRightside img{
     border-radius: 50%;
-    margin: auto;
+    margin-top: -4.5em;
     width: 25rem;
     height: 35rem;
     object-fit: cover;
@@ -119,6 +119,10 @@
     #about{
         margin-bottom: 35rem;
     }
+
+    .meIn{
+        width: 100%;
+    }    
     .me{
         margin-bottom: 2rem;
         width: 80%;

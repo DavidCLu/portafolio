@@ -1,0 +1,15 @@
+{
+  "name": "CvDx",
+  "short_name": "CvDx",
+  "display": "standalone",
+  "scope": "./",
+  "start_url": "./",
+  "icons": [
+    {
+      "src": "assets/icono-img/iconDx.png",
+      "sizes": "1024x1024",
+      "type": "image/png",
+      "purpose": "maskable any"
+    }
+  ]
+}
