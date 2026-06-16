@@ -73,7 +73,8 @@
     color: aliceblue;
 }
 .tagcloud{
-    width: 40rem;
+    
+    
     color: #00FF7F; 
     background-clip:text; 
     font-weight: bold;
@@ -118,7 +119,7 @@
 }
 @media screen and (max-width: 645px) {
     .tagcloud{
-        display: none;
+       font-size: 0.5rem;
     }
 }
 @media screen and (max-width: 560px) {

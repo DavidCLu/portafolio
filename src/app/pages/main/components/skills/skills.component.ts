@@ -23,6 +23,8 @@ export class SkillsComponent implements OnInit {
     this.getScreenWidth = window.innerWidth;
     this.getScreenHeight = window.innerHeight;
 
+    document.querySelector('.tagcloud')!.innerHTML = ''; // limpiar
+    this.skillSphere(); // volver a crear
   }
   
 
@@ -41,9 +43,17 @@ export class SkillsComponent implements OnInit {
           'GIT','GITHUB','SOURCETREE','JENKINS','JIRA','CONFLUENCE',
           'POSTMAN','SWAGGER','STS4','VS CODE','SONARQUBE','LINUX'
         ];
+
+        let radius = 250;
+        if (this.getScreenWidth < 645) {
+          radius = this.getScreenWidth / 3; // ajusta proporcional
+        }
+
+
+
         const options = {
-          radius: 250,
-          maxSpeed: 'fast',
+          radius: radius,
+          maxSpeed: 'medium',//medium
           initSpeed: 'normal',//normal
           direction: 135,
           keep: 135,
@@ -54,5 +64,5 @@ export class SkillsComponent implements OnInit {
         delete TagCloud[""];
         
   }
-  
+
 }
