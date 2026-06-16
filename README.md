@@ -7,6 +7,24 @@ npx angular-cli-ghpages --dir=dist/porta
 https://davidclu.github.io/portafolio/
 
 
+
+
+Favicon (icono de la web)
+
+Colocar el archivo en src/ o src/assets/
+Referenciar en index.html:
+
+App instalable (PWA en Chrome)
+
+Añadir soporte PWA:ng add @angular/pwa
+Configurar manifest.webmanifest:
+src/assets/icons/
+ng build --configuration production
+
+
+
+npx serve -s dist/
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.9.
 
 ## Development server
